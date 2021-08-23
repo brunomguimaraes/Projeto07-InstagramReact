@@ -2,7 +2,7 @@ export default function Sugestao(props) {
     return (
         <div class="sugestao">
               <div class="usuario">
-                <img src={props.userImage} />
+                <img src={props.userImage} alt="Perfil"/>
                 <div class="texto">
                   <div class="nome">{props.userName}</div>
                   <div class="razao">{props.reason}</div>

@@ -3,7 +3,7 @@ export default function Post(props) {
         <div class="post">
             <div class="topo">
                 <div class="usuario">
-                  <img src={props.userImage} />
+                  <img src={props.userImage} alt="Perfil" />
                   {props.userName}
                 </div>
                 <div class="acoes">
@@ -12,7 +12,7 @@ export default function Post(props) {
               </div>
 
               <div class="conteudo">
-                <img src={props.postImage} />
+                <img src={props.postImage} alt="Post" />
               </div>
 
               <div class="fundo">
@@ -28,7 +28,7 @@ export default function Post(props) {
                 </div>
 
                 <div class="curtidas">
-                  <img src={props.likeImage} />
+                  <img src={props.likeImage} alt="Perfil" />
                   <div class="texto">
                   Curtido por <strong>{props.likeUser}</strong> e <strong>outras {props.likes} pessoas</strong>
                   </div>
